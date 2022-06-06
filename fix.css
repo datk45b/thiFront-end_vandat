@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+body {
+background: -webkit-gradient(linear, right top, left top, from(rgba(247, 150, 242, 0.4)), to(rgba(142, 240, 235, 0.7)));
+background: linear-gradient(right, rgba(247, 150, 242, 0.4), rgba(142, 240, 235, 0.7));
+}
+  
+.header p {
+background: linear-gradient(45deg, red, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+font-weight: bold;
+}
+  
+.main {
+margin-top: 10px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+height: 300px;
+}
+  
+.main button {
+color: #f300be;
+}
+
+.main p {
+background: linear-gradient(45deg, red, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+font-weight: bold;
+margin-right: 10px;
+}
+
+.footer {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+height: 300px;
+margin-top: 10px;
+}
+
+.footer button {
+color: #ff009d;
+}
+
+.footer p {
+background: linear-gradient(45deg, red, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+font-weight: bold;
+margin-right: 10px;
+}
+
+.main button, .footer button {
+padding: 10px 20px;
+border: none;
+outline: none;
+font-size: 20px;
+font-weight: bold;
+border: 2px solid #061fff;
+background: -webkit-gradient(linear, right top, left top, from(rgba(247, 150, 242, 0.4)), to(rgba(142, 240, 235, 0.7)));
+background: linear-gradient(right, rgba(247, 150, 242, 0.4), rgba(142, 240, 235, 0.7));
+cursor: pointer;
+}
+.header, .main, .footer {
+background: -webkit-gradient(linear, right top, left top, from(rgba(111, 255, 159, 0.4)), to(rgba(255, 9, 9, 0.7)));
+background: linear-gradient(right, rgba(111, 255, 159, 0.4), rgba(255, 9, 9, 0.7));
+height: 200px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+  /*# sourceMappingURL=sass.css.map */
